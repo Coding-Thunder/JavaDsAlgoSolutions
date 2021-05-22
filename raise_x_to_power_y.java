@@ -7,13 +7,15 @@ import java.util.Scanner;
 public class raise_x_to_power_y {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        int a = sc.nextInt();
-        int b = sc.nextInt();
+        // Raise x to power y
+        System.out.println("Enter first number");
+        int x = sc.nextInt();
+        System.out.println("Enter power to raise to");
+        int y = sc.nextInt();
         sc.close();
-        int result = 1;
-        for (int i = 0; i < b; i++) {
-            result *= a;
+        float result = 1f;
+        for (float i = 0; i < y; i++) {
+            result *= x;
         }
         System.out.println(result);
     }
