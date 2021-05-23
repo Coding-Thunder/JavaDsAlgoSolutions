@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_table",
+            "request": "launch",
+            "mainClass": "find_table",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfTriangleHard",
+            "request": "launch",
+            "mainClass": "halfTriangleHard",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch halfTrianglePattern",
+            "request": "launch",
+            "mainClass": "halfTrianglePattern",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch improved_prime_number_or_not",
+            "request": "launch",
+            "mainClass": "improved_prime_number_or_not",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch prac",
+            "request": "launch",
+            "mainClass": "prac",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch raise_x_to_power_y",
+            "request": "launch",
+            "mainClass": "raise_x_to_power_y",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch series_sum_2",
+            "request": "launch",
+            "mainClass": "series_sum_2",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch seriessum",
+            "request": "launch",
+            "mainClass": "seriessum",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch squarePattern",
+            "request": "launch",
+            "mainClass": "squarePattern",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch tables_to_20",
+            "request": "launch",
+            "mainClass": "tables_to_20",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        },
+        {
+            "type": "java",
+            "name": "Launch upsideDownRightTrianglePattern",
+            "request": "launch",
+            "mainClass": "upsideDownRightTrianglePattern",
+            "projectName": "JavaDsAlgoSolutions_f8aff0f0"
+        }
+    ]
+}

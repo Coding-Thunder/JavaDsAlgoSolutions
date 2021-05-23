@@ -11,12 +11,12 @@ public class prac {
         System.out.println("Enter a range");
         int n = sc.nextInt();
         sc.close();
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < i; j++) {
+        for (int j = 1; j <= n; j++) {
+            for (int i = 1; i <= j - 1; i++) {
                 System.out.print("  ");
             }
-            for (int j = 0; j < n - i; j++) {
-                System.out.print("* ");
+            for (int i = 1; i <= n - j + 1; i++) {
+                System.out.print(i + " ");
             }
             System.out.println();
         }
