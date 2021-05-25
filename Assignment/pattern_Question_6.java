@@ -21,7 +21,7 @@ public class pattern_Question_6 {
             for (int j = 1; j <= i - 1; j++) {
                 System.out.print(number + " " + (number + 1) + " ");
             }
-            number = 2;
+
             System.out.println();
         }
     }
