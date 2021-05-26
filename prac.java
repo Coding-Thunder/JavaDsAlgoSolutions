@@ -1,49 +1,24 @@
-
 /**
  * prac
  */
-
-import java.util.Scanner;
-
 public class prac {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Number of rows and columns and both should same");
-        int rows = sc.nextInt();
-        int cols = sc.nextInt();
-
-        if (rows == cols) {
-            int a[][] = new int[rows][cols];
-            int b[][] = new int[rows][cols];
-            int c[][] = new int[rows][cols];
-
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    a[i][j] = sc.nextInt();
+        int a[] = { 3, 4, 1, 4, 5, 5, 6, 19, 43, 43 };
+        int n = a.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+            for (int j = i; j < n; j++) {
+                if (a[minIndex] > a[j]) {
+                    minIndex = j;
                 }
             }
-
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    b[i][j] = sc.nextInt();
-                }
-            }
-
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < rows; j++) {
-                    c[i][j] = a[i][j] * a[j][i];
-                }
-            }
-
-            for (int i = 0; i < rows; i++) {
-                for (int j = 0; j < cols; j++) {
-                    System.out.print(c[i][j] + " ");
-                }
-            }
-
-        } else {
-            System.out.println("Length of Rows and Columns should be equal");
+            int temp = a[i];
+            a[i] = a[minIndex];
+            a[minIndex] = temp;
+        }
+        for (int item : a) {
+            System.out.print(item + " ");
         }
     }
 }
