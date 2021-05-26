@@ -8,8 +8,9 @@ public class doWhileLoopExample {
         int n = 1;
         do {
             n = sc.nextInt();
-            sc.close();
             System.out.println("n is " + n);
         } while (n != 0);
+
+        sc.close();
     }
 }
